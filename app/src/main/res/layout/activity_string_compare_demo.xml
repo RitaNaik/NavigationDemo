@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_string_compare_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rita_pc.demonavigation.StringCompareDemo">
+
+    <TextView
+        android:text="Enter Second String"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtFirstStr"
+        android:layout_alignLeft="@+id/txtFirstStr"
+        android:layout_alignStart="@+id/txtFirstStr"
+        android:layout_marginTop="79dp"
+        android:id="@+id/txtSecondStr" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edtFirstStr"
+        android:layout_alignLeft="@+id/edtFirstStr"
+        android:layout_alignStart="@+id/edtFirstStr"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="66dp"
+        android:id="@+id/edtSecondStr" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtFirstStr"
+        android:layout_alignBaseline="@+id/txtFirstStr"
+        android:layout_alignBottom="@+id/txtFirstStr"
+        android:layout_alignLeft="@+id/edtResult"
+        android:layout_alignStart="@+id/edtResult"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <TextView
+        android:text="Enter First String"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="93dp"
+        android:id="@+id/txtFirstStr"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheck"
+        android:textAllCaps="false"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/edtSecondStr"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

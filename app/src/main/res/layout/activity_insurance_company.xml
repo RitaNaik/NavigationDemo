@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_insurance_company"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rita_pc.demonavigation.InsuranceCompany">
+
+    <TextView
+        android:text="Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtHealth"
+        android:layout_marginTop="48dp"
+        android:id="@+id/txtAge" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edtHealth"
+        android:layout_alignLeft="@+id/edtHealth"
+        android:layout_alignStart="@+id/edtHealth"
+        android:layout_marginTop="33dp"
+        android:id="@+id/edtAge" />
+
+    <TextView
+        android:text="Lives In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLivesIn"
+        android:layout_alignTop="@+id/edtLivesIn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="33dp"
+        android:id="@+id/edtLivesIn"
+        android:layout_below="@+id/edtAge"
+        android:layout_alignLeft="@+id/edtAge"
+        android:layout_alignStart="@+id/edtAge" />
+
+    <TextView
+        android:text="Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtGender"
+        android:layout_alignTop="@+id/edtGender"
+        android:layout_alignRight="@+id/txtLivesIn"
+        android:layout_alignEnd="@+id/txtLivesIn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edtLivesIn"
+        android:layout_alignLeft="@+id/edtLivesIn"
+        android:layout_alignStart="@+id/edtLivesIn"
+        android:layout_marginTop="29dp"
+        android:id="@+id/edtGender" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtCheck"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
+
+    <TextView
+        android:text="Health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:id="@+id/txtHealth"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/txtGender"
+        android:layout_alignStart="@+id/txtGender" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:id="@+id/edtHealth"
+        android:layout_alignBaseline="@+id/txtHealth"
+        android:layout_alignBottom="@+id/txtHealth"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Check"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCheck"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/edtGender"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_compound_interest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rita_pc.demonavigation.CompoundInterest">
+
+    <TextView
+        android:text="Annual Rate Of Interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAmount"
+        android:layout_alignLeft="@+id/txtAmount"
+        android:layout_alignStart="@+id/txtAmount"
+        android:layout_marginTop="35dp"
+        android:id="@+id/txtAnnualRate" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edtAmount"
+        android:layout_toRightOf="@+id/txtAnnualRate"
+        android:layout_toEndOf="@+id/txtAnnualRate"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/edtAnnualRate" />
+
+    <TextView
+        android:text="Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtAnnualRate"
+        android:layout_alignLeft="@+id/txtAnnualRate"
+        android:layout_alignStart="@+id/txtAnnualRate"
+        android:layout_marginTop="41dp"
+        android:id="@+id/txtTime" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/edtAnnualRate"
+        android:layout_alignLeft="@+id/edtAmount"
+        android:layout_alignStart="@+id/edtAmount"
+        android:layout_marginTop="26dp"
+        android:id="@+id/edtTime" />
+
+    <TextView
+        android:text="Years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTime"
+        android:layout_alignLeft="@+id/txtTime"
+        android:layout_alignStart="@+id/txtTime"
+        android:layout_marginTop="48dp"
+        android:id="@+id/txtYear" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtYears"
+        android:layout_alignBaseline="@+id/txtYear"
+        android:layout_alignBottom="@+id/txtYear"
+        android:layout_alignLeft="@+id/edtTime"
+        android:layout_alignStart="@+id/edtTime" />
+
+    <Button
+        android:text="Compound Interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtYears"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btnCalculate" />
+
+    <TextView
+        android:text="Compound Interest Is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCalculate"
+        android:layout_toLeftOf="@+id/btnCalculate"
+        android:layout_toStartOf="@+id/btnCalculate"
+        android:layout_marginTop="30dp"
+        android:id="@+id/txtResult" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtResult"
+        android:layout_alignBaseline="@+id/txtResult"
+        android:layout_alignBottom="@+id/txtResult"
+        android:layout_toRightOf="@+id/txtAmount"
+        android:layout_toEndOf="@+id/txtAmount" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="51dp"
+        android:id="@+id/edtAmount"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/edtResult"
+        android:layout_alignEnd="@+id/edtResult" />
+
+    <TextView
+        android:text="Principal Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmount"
+        android:layout_alignBaseline="@+id/edtAmount"
+        android:layout_alignBottom="@+id/edtAmount"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

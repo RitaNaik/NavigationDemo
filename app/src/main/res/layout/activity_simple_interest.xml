@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_simple_interest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rita_pc.demonavigation.SimpleInterest">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/edtAmount"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/edtRate" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/edtAmount"
+        android:layout_alignStart="@+id/edtAmount"
+        android:id="@+id/edtPeriod" />
+
+    <TextView
+        android:text="Period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/edtRate"
+        android:layout_alignLeft="@+id/txtRate"
+        android:layout_alignStart="@+id/txtRate"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/btnCalculate"
+        android:layout_alignLeft="@+id/edtPeriod"
+        android:layout_alignStart="@+id/edtPeriod"
+        android:layout_marginTop="16dp"
+        android:id="@+id/edtResult" />
+
+    <TextView
+        android:text="Rate Of Interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRate"
+        android:layout_alignBaseline="@+id/edtRate"
+        android:layout_alignBottom="@+id/edtRate"
+        android:layout_alignRight="@+id/txtResult"
+        android:layout_alignEnd="@+id/txtResult" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edtAmount"
+        android:layout_marginTop="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Enter Prinipal Amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAmount"
+        android:layout_alignBaseline="@+id/edtAmount"
+        android:layout_alignBottom="@+id/edtAmount"
+        android:layout_toStartOf="@+id/edtAmount"
+        android:layout_toLeftOf="@+id/edtAmount" />
+
+    <TextView
+        android:text="Simpple Interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:layout_alignBaseline="@+id/edtResult"
+        android:layout_alignBottom="@+id/edtResult"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/btnCalculate"
+        android:layout_below="@+id/edtPeriod"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/TwoDArrayOperations"
+            android:icon="@drawable/ic_star_black"
+            android:title="2DArrayOperations" />
+        <item
+            android:id="@+id/AreaOfCircle"
+            android:icon="@drawable/ic_star_black"
+            android:title="AreaOfCircle" />
+        <item
+            android:id="@+id/ArithmaticOperations"
+            android:icon="@drawable/ic_star_black"
+            android:title="ArithmaticOperatons" />
+        <item
+            android:id="@+id/ArmStrongNo"
+            android:icon="@drawable/ic_star_black"
+            android:title="ArmStrongNo" />
+
+        <item
+            android:id="@+id/ArrayOperations"
+            android:icon="@drawable/ic_star_black"
+            android:title="ArrayOperations"/>
+
+        <item
+            android:id="@+id/ArrayTraversing"
+            android:icon="@drawable/ic_star_black"
+            android:title="ArrayTraversing"/>
+
+        <item
+            android:id="@+id/CheckEvenOrOdd"
+            android:icon="@drawable/ic_star_black"
+            android:title="CheckEvenOrOdd"/>
+
+        <item
+            android:id="@+id/DisplayNotes"
+            android:title="DisplayNotes"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/CompoundInterest"
+            android:title="CompoundInterest"
+            android:icon="@drawable/ic_star_black"/>
+        <item
+            android:id="@+id/CheckCharacter"
+            android:icon="@drawable/ic_star_black"
+            android:title="CheckCharacter"/>
+        <item
+            android:id="@+id/FahrenheitToCelcius"
+            android:title="FahrenheitToCelcius"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/FirstLastArrayElementSwap"
+            android:title="FirstLastArrayElementSwap"
+            android:icon="@drawable/ic_star_black" />
+
+        <item
+            android:id="@+id/GenerateRandomNo"
+            android:title="GenerateRandomNo"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/GradeOfSteel"
+            android:title="GradeOfSteel"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/GradeOfStudent"
+            android:icon="@drawable/ic_star_black"
+            android:title="GradeOfStudent"/>
+
+        <item
+            android:id="@+id/GrossSalaryCalculation"
+            android:title="GrossSalaryCalculation"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/InsuranceCompany"
+            android:title="InsuranceCompany"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/InsureDriver"
+            android:title="InsureDriver"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/LengthConversion"
+            android:title="LengthConversion"
+            android:icon="@drawable/ic_star_black"/>
+        <item
+            android:id="@+id/MonthlyTelephoneBill"
+            android:title="MonthlyTelephoneBill"
+            android:icon="@drawable/ic_star_black"/>
+        <item
+            android:id="@+id/MyCalculator"
+            android:title="Calculator"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/SimpleInterest"
+            android:title="SimpleInterest"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/StringCompareDemo"
+            android:title="StringCompareDemo"
+            android:icon="@drawable/ic_star_black"/>
+        <item
+            android:id="@+id/TicTacToe"
+            android:title="TicTacToe"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/MachineTest2"
+            android:title="ProductInformation1"
+            android:icon="@drawable/ic_star_black"/>
+
+        <item
+            android:id="@+id/MachineTest3"
+            android:title="ProductInformation2"
+            android:icon="@drawable/ic_star_black"/>
+        <item
+            android:id="@+id/InsertRecordsInDB"
+            android:title="InsertIntoDB"
+            android:icon="@drawable/ic_star_black"/>
+    </group>
+
+
+
+</menu>

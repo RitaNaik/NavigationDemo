@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rita_pc.demonavigation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TwoDArrayOperations" />
+        <activity android:name=".TwoDArrayOperation" />
+        <activity android:name=".AreaOfCircle" />
+        <activity android:name=".ArithmaticOperations" />
+        <activity android:name=".ArmStrongNo" />
+        <activity android:name=".ArrayOperations" />
+        <activity android:name=".ArrayTraversing" />
+        <activity android:name=".CheckCharacter" />
+        <activity android:name=".CheckEvenOrOdd" />
+        <activity android:name=".CompoundInterest" />
+        <activity android:name=".FahrenheitToCelcius" />
+        <activity android:name=".DisplayNotes" />
+        <activity android:name=".FirstLastArrayElementSwap" />
+        <activity android:name=".GenerateRandomNo" />
+        <activity android:name=".GradeOfSteel" />
+        <activity android:name=".GradeOfStudent" />
+        <activity android:name=".GrossSalaryCalculation" />
+        <activity android:name=".InsureDriver" />
+        <activity android:name=".InsuranceCompany" />
+        <activity android:name=".LengthConversion" />
+        <activity android:name=".MonthlyTelephoneBill" />
+        <activity android:name=".Calculator" />
+        <activity android:name=".SimpleInterest" />
+        <activity android:name=".StringCompareDemo" />
+        <activity android:name=".TicTacToe" />
+        <activity android:name=".MachineTest2" />
+        <activity android:name=".MachineTest3" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".SelectProduct" />
+        <activity android:name=".SelectPrice" />
+        <activity android:name=".DisplayList" />
+        <activity android:name=".InsertInDB" />
+        <activity android:name=".RegisterUser" />
+        <activity android:name=".ModifyData" />
+        <activity android:name=".DisplayRecords"></activity>
+    </application>
+
+</manifest>

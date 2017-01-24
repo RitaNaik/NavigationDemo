@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_two_darray_operation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rita_pc.demonavigation.TwoDArrayOperation">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:layout_alignBottom="@+id/edt10"
+        android:layout_alignLeft="@+id/edt01"
+        android:layout_alignStart="@+id/edt01"
+        android:id="@+id/edt11" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt12"
+        android:layout_alignBaseline="@+id/edt11"
+        android:layout_alignBottom="@+id/edt11"
+        android:layout_alignLeft="@+id/edt02"
+        android:layout_alignStart="@+id/edt02" />
+
+    <Button
+        android:text="Matrix Addition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:layout_below="@+id/edt21"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt21"
+        android:layout_alignBaseline="@+id/edt20"
+        android:layout_alignBottom="@+id/edt20"
+        android:layout_alignLeft="@+id/btnMultiply"
+        android:layout_alignStart="@+id/btnMultiply" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt22"
+        android:layout_alignBaseline="@+id/edt21"
+        android:layout_alignBottom="@+id/edt21"
+        android:layout_alignLeft="@+id/edt12"
+        android:layout_alignStart="@+id/edt12" />
+
+    <Button
+        android:text="Matrix A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnA"
+        android:layout_above="@+id/edt12"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:layout_toEndOf="@+id/btnAdd" />
+
+    <Button
+        android:text="Matrix B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnB"
+        android:layout_alignBottom="@+id/edt22"
+        android:layout_alignLeft="@+id/btnA"
+        android:layout_alignStart="@+id/btnA" />
+
+    <Button
+        android:text="Matrix Multiplication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMultiply"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt00"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt01"
+        android:layout_alignBaseline="@+id/edt00"
+        android:layout_alignBottom="@+id/edt00"
+        android:layout_alignLeft="@+id/edt21"
+        android:layout_alignStart="@+id/edt21" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt02"
+        android:layout_alignBaseline="@+id/edt01"
+        android:layout_alignBottom="@+id/edt01"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:layout_marginTop="24dp"
+        android:id="@+id/edt10"
+        android:layout_below="@+id/edt00"
+        android:layout_alignLeft="@+id/edt00"
+        android:layout_alignStart="@+id/edt00" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="2"
+        android:id="@+id/edt20"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/edt10"
+        android:layout_alignStart="@+id/edt10" />
+
+
+</RelativeLayout>
